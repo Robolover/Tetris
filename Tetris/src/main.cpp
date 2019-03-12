@@ -1,7 +1,13 @@
 #include <iostream>
 
+using namespace std;
+
 int main(void)
 {
-	std::cout << "hello world";
+	int test;
+
+	cout << "hello world" << endl;
+	cin >> test;
+
 	return 0;
 }
