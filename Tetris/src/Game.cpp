@@ -97,7 +97,7 @@ void Game::DrawPiece(int pX, int pY, int pPiece, int pRotation)
 			if(mPieces->GetBlockType(pPiece, pRotation, j, i)!=0)
 				mIO->DrawRectangle(mPixelsX + i*BLOCK_SIZE,
 									mPixelsY + j*BLOCK_SIZE,
-									(mPixelsX + i * BLOCK_SIZE) + BLOCK_SIZE -1),
+									(mPixelsX + i * BLOCK_SIZE) + BLOCK_SIZE -1,
 									(mPixelsY + j * BLOCK_SIZE) + BLOCK_SIZE -1,
 									mColor);
 		}
